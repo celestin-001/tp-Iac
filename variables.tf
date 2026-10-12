@@ -21,7 +21,7 @@ variable "external_port" {
 }
 
 variable "network_name" {
-    description = "Nom du reseau"
-    type = string
-    default     = "iac-nginx"
+  description = "Nom du reseau"
+  type        = string
+  default     = "iac-nginx"
 }
