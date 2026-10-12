@@ -7,7 +7,7 @@ Le montage bind possède un lien direct avec avec les ressources locales tandisq
 ip = 127.0.0.1 limite l'accès à la machine locale tandisque le second expose notre application à tous utilisateurs du même reseau.
 
 ### Question 3: Quelles ressources apparaissent dans terraform state list ?
-sert à lister le nom de toutes les ressources que Terraform gère actuellement dans votre infrastructure informatique.
+sert à lister le nom de toutes les ressources que Terraform gère actuellement dans notre infrastructure informatique.
 ```text
 terraform state list
 docker_container.web
