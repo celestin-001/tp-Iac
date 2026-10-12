@@ -1,6 +1,6 @@
 output "container_name" {
   description = "Nom du conteneur déployé"
-  value       = docker_container.web.name
+  value       = var.network_name
 }
 
 output "network_name" {
@@ -12,3 +12,4 @@ output "website_url" {
   description = "URL du serveur Web local"
   value       = "http://localhost:${var.external_port}"
 }
+
